@@ -40,6 +40,6 @@ public class MemorieRom {
 
     @Override
     public String toString() {
-        return "MemorieRom{" + "tipRom=" + tipRom + ", interfata=" + interfata + ", memoriePRom=" + memoriePRom + '}';
+        return tipRom + ", " + interfata + ", " + memoriePRom;
     }
 }

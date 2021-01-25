@@ -49,6 +49,6 @@ public class PlacaVideo {
 
     @Override
     public String toString() {
-        return "PlacaVideo{" + "producatorPVideo=" + producatorPVideo + ", tipPVideo=" + tipPVideo + ", memoriePVideo=" + memoriePVideo + ", frecventaPVideo=" + frecventaPVideo + '}';
+        return producatorPVideo + ", " + tipPVideo + ", " + memoriePVideo + ", " + frecventaPVideo;
     }
 }

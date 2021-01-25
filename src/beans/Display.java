@@ -31,6 +31,6 @@ public class Display {
 
     @Override
     public String toString() {
-        return "Display{" + "diagonalaDisplay=" + diagonalaDisplay + ", frecventaDisplay=" + frecventaDisplay + '}';
+        return diagonalaDisplay + ", " + frecventaDisplay;
     }    
 }

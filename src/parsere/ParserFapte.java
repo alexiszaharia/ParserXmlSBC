@@ -106,6 +106,23 @@ public class ParserFapte {
         return listaFapte;
     }
     
+    public Object[] getAsVectObj(Device device) {
+        Object[] vectorDevice = new Object[10];
+        
+        vectorDevice[0] = device.getNumeDevice();
+        vectorDevice[1] = device.getTipDevice();
+        vectorDevice[2] = device.getPret();
+        vectorDevice[3] = device.getMagazin();
+        vectorDevice[4] = device.getPlacaDeBaza().toString();
+        vectorDevice[5] = device.getProcesor().toString();
+        vectorDevice[6] = device.getPlacaVideo().toString();
+        vectorDevice[7] = device.getMemorieRam().toString();
+        vectorDevice[8] = device.getMemorieRom().toString();
+        vectorDevice[9] = (device.getDisplay() != null) ? device.getDisplay().toString() : "-";
+        
+        return vectorDevice;
+    }
+    
     private String getContinutElement(Element element, String numeElement) {
         return element.getElementsByTagName(numeElement).item(0).getTextContent().trim();
     }

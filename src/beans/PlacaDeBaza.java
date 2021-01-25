@@ -40,6 +40,6 @@ public class PlacaDeBaza {
 
     @Override
     public String toString() {
-        return "PlacaDeBaza{" + "producatorPBaza=" + producatorPBaza + ", modelPBaza=" + modelPBaza + ", chipset=" + chipset + '}';
+        return producatorPBaza + ", " + modelPBaza + ", " + chipset;
     }
 }

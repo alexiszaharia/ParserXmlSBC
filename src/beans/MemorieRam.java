@@ -40,6 +40,6 @@ public class MemorieRam {
 
     @Override
     public String toString() {
-        return "MemorieRam{" + "memoriePRam=" + memoriePRam + ", versiunePRam=" + versiunePRam + ", frecventaPRam=" + frecventaPRam + '}';
+        return memoriePRam + ", " + versiunePRam + ", " + frecventaPRam;
     }
 }

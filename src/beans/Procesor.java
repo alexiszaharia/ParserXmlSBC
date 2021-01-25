@@ -40,6 +40,6 @@ public class Procesor {
 
     @Override
     public String toString() {
-        return "Procesor{" + "producatorProcesor=" + producatorProcesor + ", tipProcesor=" + tipProcesor + ", performantaProcesor=" + performantaProcesor + '}';
+        return producatorProcesor + ", " + tipProcesor + ", " + performantaProcesor;
     }
 }
